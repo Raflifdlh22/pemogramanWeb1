@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.1</title>
+    <script>       
+        function lingkaran() {  
+        document.getElementById("hasil").innerHTML=3.14*2*parseInt(jari.value);
+        document.getElementById("hasilluas").innerHTML=3.14*parseInt(luas.value, 2);
+}
+      </script>
+</head>
+<body>
+    <h1>Menghitung luas dan keliling lingkaran</h1>
+    <input type="number" id="jari">
+    <br/>
+    <button onclick="lingkaran()">keliling</button>
+    <br>
+    <span id="hasil"></span>
+    <br />
+    <input type="number" id="luas">
+    <br />
+    <button onclick="lingkaran()">luas lingkaran</button>
+    <br>
+    <span id="hasilluas"></span>
+</body>
+</html>
