@@ -1,0 +1,25 @@
+header{
+    background-color: aqua;
+    margin: -10px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+}
+header li{
+    margin:0 1em;
+}
+header li.logo{
+    margin-right: auto;
+    text-decoration: none;
+}
+header img.logo {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+}
