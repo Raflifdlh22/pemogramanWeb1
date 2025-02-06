@@ -1,0 +1,85 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: red;
+}
+#header{
+    background-color: lightsalmon;
+    text-align: center;
+
+}
+
+blockquote{
+    background-color: yellow;
+    border: 1px dotted black;
+}
+
+.gambar{
+    text-align: center;
+}
+
+.list{
+    text-align: center;
+
+}
+
+
+.list ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.list li{
+    float: left;
+
+}
+.list li a{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.jawa{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.koleksi{
+    background: black;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.promo{
+    color: red;
+    text-align: center;
+
+}
+
+.olshop li{
+    list-style: none;
+}
+
+.olshop li a{
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+}
+
+#beternak {
+    background-color: orange;
+}
+
+.olshop a href{
+    background-color: aliceblue;
+}
