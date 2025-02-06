@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <style>
+        .container{
+            display: flex;
+            width: 500px;
+            height: 300px;
+            margin: 50px 350px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+    <script>
+        function images_picker(){
+            let pilihan = document.getElementById("option");
+            const list_images = ["byson.png","elang.png","badak.png","singa.png"];
+            if(pilihan.value == "byson"){
+                let select = list_images[0];
+                document.getElementById("gambar").src = `img/${select}`
+            }
+            if(pilihan.value == "Singa"){
+                let select = list_images[3];
+                document.getElementById("gambar").src =`img/${select}`
+            }
+            if(pilihan.value == "kucing"){
+                let select = list_images[1];
+                document.getElementById("gambar").src =`img/${select}`
+            }
+            if(pilihan.value == "Badak"){
+                let select = list_images[2];
+                document.getElementById("gambar").src = `img/${select}`
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <select name="" id="option" onchange="images_picker()">
+        <option value="">pilih gambar</option>
+        <option value="byson">Bison</option>
+        <option value="Singa">Singa</option>
+        <option value="kucing">kucing</option>
+        <option value="Elang">Elang</option>
+        <option value="Jerapah">Jerapah</option>
+        <option value="Badak">Badak</option>
+    </select>
+
+    <div class="container">
+        <div class="box">
+            <img id="gambar">
+        </div>
+    </div>
+</body>
+</html>
