@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh"content="2"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightsalmon;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            background-color: blue;
+            height: 100px;
+        }
+        .main{
+            height: 500px;
+            display: flex;
+        }
+        .footer{
+            background-color: magenta;
+            height: 100px;
+        }
+        .aside{
+            background-color: aqua;
+            width: 20%;
+        }
+        .article{
+            background-color: gold;
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+        .bingkai {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .bingkai img{
+            width: 200px;
+            margin: 0.5em;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            header
+        </div>
+
+        <div class="main">
+            <div class="aside">
+                Aside
+            </div>
+
+            <div class="article">
+                <h3>Article</h3>
+                <div class="bingkai">
+                    <img src="assets/img/apple-touch-icon.png" alt="">
+                    <img src="assets/img/apple-touch-icon.png" alt="">
+                    <img src="assets/img/apple-touch-icon.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>
